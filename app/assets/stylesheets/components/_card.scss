@@ -1,0 +1,47 @@
+.cards {
+  // display: grid;
+  // grid-template-columns: 1fr 1fr 1fr;
+  // grid-gap: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80vw;
+  margin: 0 auto;
+
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 40px;
+
+
+}
+
+.card-cocktail {
+  margin-top: 20px;
+  background-image: url(https://images.theconversation.com/files/194291/original/file-20171113-27595-ox08qm.jpg?ixlib=rb-1.1.0&rect=2%2C169%2C995%2C497&q=45&auto=format&w=1356&h=668&fit=crop);
+  width: 300px;
+  height: 200px;
+  color: white;
+  font-size: 20px;
+  font-family: Sans-serif, verdana;
+  font-weight: strong;
+  text-shadow: 5px #DCDCDC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px #DCDCDC;
+}

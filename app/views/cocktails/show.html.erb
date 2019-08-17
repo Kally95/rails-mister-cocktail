@@ -1,2 +1,3 @@
 <p><%= @cocktail.name %></p>
 <%= link_to 'Back', cocktails_path, class: "btn btn-primary" %>
+<%= link_to 'Delete Cocktail', cocktail_path(@cocktail), method: :delete %>
